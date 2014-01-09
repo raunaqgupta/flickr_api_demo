@@ -6,9 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	</head>
 	<body>
-		<img src="./assets/flickr-logo-transparent.png"></img>
-		<ul id="public_feed">
-		</ul>
+		<div id="nav">
+			<img src="./assets/flickr-logo-transparent.png" id="logo"></img>
+			<ul id="user">
+				<li id="username"><a href="#"></a></li>
+				<li id="friend_feed">Friend feed<a href="#"></a></li>
+			</ul>
+		</div>
+		<p id="error"></p>
+		<ul id="public_feed"></ul>
 		<!-- scripts -->
 		<script src="js/jquery-1.10.1.min.js"></script>
 		<script src="js/underscore-min.js"></script>
